@@ -1,19 +1,25 @@
-// Variables can start with: letters, $, _
-// Variables cannot start with: numbers
-// Variables are case-sensitive
-let age = 19;
-let myAge = 19;
-let year = 2026;
+// Strings
+console.log('hello, world');
 
-console.log(age, year);
+let email = 'john.doe@example.com';
+console.log(email);
 
-/* age = 24;
-console.log(age);
+// String concatenation
+let firstName = 'John';
+let lastName = 'Doe';
+let fullName = firstName + ' ' + lastName;
+console.log(fullName);
 
-const points = 100;
-points = 50; Won't work on constants
-console.log(points);
-*/
+// Getting characters
+console.log(fullName[0]);
 
-var score = 75;
-console.log(score);
+// String length
+console.log(fullName.length);
+
+// String methods
+console.log(fullName.toUpperCase());
+let result = fullName.toLowerCase();
+console.log(result, fullName);
+
+let index = email.indexOf('@');
+console.log(index);
