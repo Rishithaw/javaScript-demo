@@ -1,9 +1,29 @@
-// common strings methods
+let radius = 10;
+const pi = 3.14;
 
-let email = 'john.doe@example.com';
+// console.log(radius, pi);
 
-// let result = email.lastIndexOf('o');
-// let result = email.slice(0, 8);
-// let result = email.substring(9, 20);
-let result = email.replace('john.doe', 'jane.smith');
+// Math Operators +, -, *, /, **, %
+
+// console.log(10/2)
+// let result = radius % 3;
+// let result = pi * radius**2;
+
+// let result = 5 * (10-3) **2;
+// console.log(result);
+let likes = 10;
+// likes = likes + 1;
+// likes++;
+// likes--;
+// likes += 10;
+// likes -= 5;
+// likes *= 2;
+// likes /= 2;
+// console.log(likes);
+
+// NaN - Not a Number
+// console.log(5 / 'hello');
+// console.log(5 * 'hello');
+
+let result = 'The blog has ' + likes + ' likes';
 console.log(result);
