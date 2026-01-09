@@ -6,14 +6,17 @@ let user = {
   email: 'crystal@thenetninja.co.uk',
   location: 'berlin',
   blogs: ['why mac & cheese rules', '10 things to make with marmite'],
-  login: function() {
+  login() {
     console.log('The user logged in');
-
   },
-  logout: function() {
+  logout() {
     console.log('The user logged out');
+  },
+  logBlogs() {
+    // console.log(this.blogs);
+    console.log('This user has written the following blogs:');
+    this.blogs.forEach(blog => {
+      console.log(blog);
+    });
   }
 };
-
-user.login();
-user.logout();
