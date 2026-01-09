@@ -1,18 +1,8 @@
-// Primitive values
+// const para = document.querySelector('body > h1');
 
-// let score1 = 50;
-// let score2 = score1;
-// console.log(`Score1: ${score1}`, `Score2: ${score2}`);
+// console.log(para);
 
-// score1 = 100;
-// console.log(`Score1: ${score1}`, `Score2: ${score2}`);
+const paras = document.querySelectorAll('p');
+const errors = document.querySelectorAll('.error');
 
-// Refernce values
-
-const user1 = {name: 'ryu', age:30};
-const user2 = user1;
-
-console.log(user1, user2);
-
-user1.name = 'chun-li';
-console.log(user1, user2);
+console.log(errors);
