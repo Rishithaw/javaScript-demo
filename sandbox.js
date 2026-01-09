@@ -1,14 +1,17 @@
-// variables & block scope
-const age = 30;
-if (true) {
-  const age = 40;
-  let name = "John";
-  console.log("Inside block:", age, name);
-
-  if (true) {
-    const age = 50;
-    console.log("Inside nested block:", age);
-  }
+// Function expression
+const speak = function() {
+    console.log('Good day!');
 }
 
-console.log("Outside block:", age, name);
+// greet();
+// greet();
+// greet();
+
+speak();
+speak();
+speak();
+
+// Function declaration
+function greet() {
+    console.log('Hello there!');
+}
