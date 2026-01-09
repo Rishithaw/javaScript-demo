@@ -1,12 +1,12 @@
-let score = '100';
+// For Loops
+// for (let i = 0; i < 5; i++) {
+//     console.log('In loop:', i);
+// }
 
-// score = Number(score);
-// console.log(score + 1);
-// console.log(typeof score);
-
-// let result = String(50);
-// let result = Boolean(100);
-// let result = Boolean(0);
-let result = Boolean('');
-
-console.log(result, typeof result);
+// console.log('Loop finished');
+const names = ['shaun', 'mario', 'luigi'];
+for (let i = 0; i < names.length; i++) {
+    // console.log(names[i]);
+    let html = `<div>${names[i]}</div>`;
+    console.log(html);
+}
