@@ -1,15 +1,12 @@
-let age = 25;
+let score = '100';
 
-// Loose equality comparison (Different types allowed)
+// score = Number(score);
+// console.log(score + 1);
+// console.log(typeof score);
 
-// console.log(age == 25);
-// console.log(age == '25');
-// console.log(age != 25);
-// console.log(age != '25');
+// let result = String(50);
+// let result = Boolean(100);
+// let result = Boolean(0);
+let result = Boolean('');
 
-// Strict equality comparison (Different types not allowed)
-
-console.log(age === 25);
-console.log(age === '25');
-console.log(age !== 25);
-console.log(age !== '25');
+console.log(result, typeof result);
